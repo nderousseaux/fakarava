@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:860b16f3-c9e3-4cc7-aef6-c297955381f0'
+   name='fakarava2'
+   visibility='public'/>
+</xmi:XMI>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:34312f65-5e76-48e9-9079-abe1ce78f971'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Fakarava'
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:780d17cb-8024-49c1-a855-c7d09f155d1b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='end'
+    aggregation='none'
+    visibility='public'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:319a716e-2c67-464f-876a-180995be9d31'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:39dcfdda-cffb-4b18-bc7c-246eb519ca0f'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:768f7f18-972a-4e6e-a2c3-13b5c44f264f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='isDay'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7db46cc2-a012-487c-9c3b-2585cab5cb8e'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:524b47fe-f293-44c7-bf33-e82e24a08d24'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

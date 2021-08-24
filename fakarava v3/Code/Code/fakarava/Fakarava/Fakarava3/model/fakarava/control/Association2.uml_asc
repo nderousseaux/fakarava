@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Association xmi:type='uml:Association' xmi:uuid='urn:uuid:edbebafc-8dcc-4dc6-a5eb-ec3eb0c7c4ea'
+   isAbstract='false'
+   isDerived='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Association2'
+   visibility='public'>
+  <memberEnd href='urn:uuid:8f792ed6-33da-4758-92a2-6b12918d4e1a'/>
+  <memberEnd href='urn:uuid:de70eb52-3640-4d1a-a53c-f1a6cd2b673b'/>
+  <navigableOwnedEnd href='urn:uuid:de70eb52-3640-4d1a-a53c-f1a6cd2b673b'/>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:8f792ed6-33da-4758-92a2-6b12918d4e1a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    aggregation='none'>
+   <association href='urn:uuid:edbebafc-8dcc-4dc6-a5eb-ec3eb0c7c4ea'/>
+   <type href='urn:uuid:8b4fb54d-67cb-40ca-8cca-78a9fc73431e'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9736d8b0-39e7-4c67-8b25-f3277ee48732'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:27916c92-aded-4686-8ab0-e04f26106adf'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:de70eb52-3640-4d1a-a53c-f1a6cd2b673b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='true'
+    isUnique='true'
+    name='lesPlongeurs'
+    aggregation='none'
+    visibility='private'>
+   <association href='urn:uuid:edbebafc-8dcc-4dc6-a5eb-ec3eb0c7c4ea'/>
+   <type href='urn:uuid:995674a2-9000-4640-8c80-2d551d7ca029'/>
+   <defaultValue xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:c83d1ca5-3677-4c77-8c5c-e87ccc2995bc'
+     value='new ArrayList&lt;Plongeur>()'
+     visibility='public'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1f0d2851-fc58-4680-8c23-ab6175352b5d'
+     value='0'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8f6e74a2-28dd-4ad2-80e6-b36c47715563'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:df8fca1d-5065-4620-a189-fa3472f34294'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Camera'
+   visibility='public'/>
+</xmi:XMI>

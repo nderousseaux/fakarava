@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:b261f51d-954b-4e68-bb1f-40a543fdd160'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Plongeur'
+   visibility='public'>
+  <interfaceRealization xmi:type='uml:InterfaceRealization' xmi:uuid='urn:uuid:5b02fd4b-3abb-4c34-977a-04c81b32be6f'
+    visibility='public'>
+   <contract href='urn:uuid:18e2464c-68bd-47ca-b0e3-9baa2243a2dc'/>
+   <client href='urn:uuid:b261f51d-954b-4e68-bb1f-40a543fdd160'/>
+   <supplier href='urn:uuid:18e2464c-68bd-47ca-b0e3-9baa2243a2dc'/>
+  </interfaceRealization>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:73f4ee45-437e-4e11-bac5-5f988044551a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='fichierLog'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9eba603f-2a43-4966-835c-9ff2c2fef99b'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:17148607-6750-49b7-8f63-3b250aeddb3a'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:c6f8ac2b-dc6b-4661-a8ea-ece7c8797b7e'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='identifiant'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:70adf177-089b-4ba7-bfc6-9890b255fe0d'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e952769b-31c5-4d51-b485-f7afefeea38e'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:711a51a0-e884-4e36-8bb7-0ba24f47f37a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='nom'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:33964409-52ce-42fe-bdf2-5f1823a0b5b9'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:a2ef26a1-5b7e-4c1f-95d7-fe0fd135f13d'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:ac620c03-b47e-4932-828e-8b616b643754'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Labo'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:d1e29ac8-82f2-40bd-a316-a67ce54cdbb7'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:59e451db-ff3b-4a75-8a17-371aa7c61613'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+ </uml:Class>
+</xmi:XMI>

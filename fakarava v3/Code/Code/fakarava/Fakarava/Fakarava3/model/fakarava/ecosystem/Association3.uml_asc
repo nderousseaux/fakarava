@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Association xmi:type='uml:Association' xmi:uuid='urn:uuid:f941f8c7-a003-477a-805e-3901be34946f'
+   isAbstract='false'
+   isDerived='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Association3'
+   visibility='public'>
+  <memberEnd href='urn:uuid:e41f210e-404b-4e63-994c-8339901946ea'/>
+  <memberEnd href='urn:uuid:d8e064b2-ee78-47f2-b5b6-a7743d6f4f7f'/>
+  <navigableOwnedEnd href='urn:uuid:d8e064b2-ee78-47f2-b5b6-a7743d6f4f7f'/>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:e41f210e-404b-4e63-994c-8339901946ea'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    aggregation='none'>
+   <association href='urn:uuid:f941f8c7-a003-477a-805e-3901be34946f'/>
+   <type href='urn:uuid:19bff71d-af4d-4e72-9fee-eec208bf397f'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:afb289fd-7463-4a50-bfa1-0572206c080d'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:7383e51f-ec43-417c-90d9-56f3d4967aba'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:d8e064b2-ee78-47f2-b5b6-a7743d6f4f7f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='LesCellules'
+    aggregation='none'
+    visibility='private'>
+   <association href='urn:uuid:f941f8c7-a003-477a-805e-3901be34946f'/>
+   <type href='urn:uuid:69dd26fd-9ce7-4a6d-8899-b45d989ff71d'/>
+   <defaultValue xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:69a61c3f-8b5d-443c-b98d-fa7eb2914b59'
+     value='new ArrayList&lt;Cellule>()'
+     visibility='public'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c1913a30-9c47-4317-b49e-cd7add93cdbe'
+     value='0'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:06a4a53c-3bec-4e44-83ee-cbacaaa66415'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

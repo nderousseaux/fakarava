@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Interface xmi:type='uml:Interface' xmi:uuid='urn:uuid:deb0b956-995b-4225-992a-e9f56d70a1c2'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Clock'
+   visibility='public'>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:7efccd65-4466-42a8-bc1d-837493b288a1'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='TickTock'
+    concurrency='sequential'
+    visibility='public'/>
+ </uml:Interface>
+</xmi:XMI>

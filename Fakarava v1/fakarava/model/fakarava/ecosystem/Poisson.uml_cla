@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:149e232d-5e16-4eac-90ea-3c7fb5415845'
+   isAbstract='true'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Poisson'
+   visibility='public'>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:31582568-74f8-4a26-bc1e-c98ba4a0cbde'
+    isSubstitutable='true'>
+   <general href='urn:uuid:720ee7db-ea48-40ff-8341-8e35639d470c'/>
+  </generalization>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:225275f3-46e6-48d3-9ada-52ffec087733'
+    isSubstitutable='true'>
+   <general href='urn:uuid:853161d4-c5c9-448d-be12-69b3e6339f9c'/>
+  </generalization>
+  <interfaceRealization xmi:type='uml:InterfaceRealization' xmi:uuid='urn:uuid:975bacfc-f8f8-46bc-b0a0-cf8f0153954f'
+    visibility='public'>
+   <contract href='urn:uuid:3794b47e-7b78-45d5-a189-79c89a7acefd'/>
+   <client href='urn:uuid:149e232d-5e16-4eac-90ea-3c7fb5415845'/>
+   <supplier href='urn:uuid:3794b47e-7b78-45d5-a189-79c89a7acefd'/>
+  </interfaceRealization>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:af4ebf9d-700f-4abd-8ded-e733553fb3c5'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='nom'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:eb1a0a19-af4e-4f26-91f8-731b50a2e0ba'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:19b265b5-f397-4159-a7b9-fa17af91312e'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:53e9ef00-35a8-4d9a-b414-709e6ecc94fb'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='poid'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Real'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:962fc4f7-9401-4537-9b0d-9f818391d7cc'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:dd9176de-0349-4b68-8c37-31e1bbdb6022'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:465cb075-f4b5-4a62-b422-f14c55f15156'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='age'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:5a32d8f1-a047-4685-b48c-ca758e65a929'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:fe4d58ee-2f20-47fb-871c-7e36775e376d'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:1a95e5f2-9706-4b9f-a0ef-cd8aaa8aa429'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='numero'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:db985e6d-ef5d-46c7-8e4b-ab572b568378'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:578e9847-e8b4-4361-bcde-27fe4e4e6d45'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:8ff08af7-23a5-4c85-874f-6f79aa8b2c0f'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getNom'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:7bad84d7-2b21-485c-82c5-2d14db32edc6'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:c55e25a9-8467-4484-9214-3fbff671e115'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getAge'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:bc837008-a6be-47d4-92a4-1d65fe2b0925'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:0299440d-20e1-4176-9b96-d03c663f8f1d'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getNumero'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:0575a450-ff34-498a-919b-56aad0a8558b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:ef024a48-5f7f-488f-8b14-fbfb5a00a56a'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getPoid'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:5f30b3e9-e1d7-4bad-8886-b716e4771a6b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Real'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:42b025fc-add9-464c-ad79-669a84d952e0'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='seDeplacer'
+    concurrency='sequential'
+    visibility='public'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:498ba583-08e5-4c27-b0e3-d29fa1058eb7'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='seReproduire'
+    concurrency='sequential'
+    visibility='public'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:e7db0e63-3aa6-4cbc-b22b-37e8cb25ca47'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Poisson'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:851a8574-0af2-40ad-8434-1f635c33206e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='nom'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:d010eab5-4eec-45c5-999d-a942a528ec1f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='num'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b0638137-2212-4b6e-bd8c-d047d93e4028'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='poid'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Real'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>
